@@ -1,0 +1,83 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 28px;
+  background-color: #0046c9;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  position: sticky;
+  top: 0;
+  z-index: 100; 
+}
+
+.header-container .left-section,
+.header-container .right-section {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .nav-link {
+  cursor: pointer;
+  color: white; /* Adjust link color */
+  font-size: 18px; /* Adjust font size */
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth transitions on hover */
+
+  &:hover {
+    color: #fff;
+    text-decoration: underline; /* Add underline on hover */
+  }
+}
+
+
+.header-container .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container .logo {
+  width: 50px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.header-container .brand-name {
+  font-size: 30px; /* Increase font size for brand name */
+  font-weight: bold;
+  color: #fff; /* Adjust the color as needed */
+}
+
+/* Styling for the right section (login and register) */
+.header-container .right-section {
+  font-size: 16px;
+}
+
+/* Add spacing between login and register links */
+.header-container .right-section .nav-link {
+  margin-right: 20px;
+}
+
+/* Adjust the color and size of login and register links */
+.header-container .right-section .nav-link a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none; /* Remove underline by default */
+}
+
+/* Hover effect for login and register links */
+.header-container .right-section .nav-link:hover {
+  text-decoration: underline;
+}
+
+.header-container .left-section .nav-link {
+  margin-left: 20px;
+}
+
+.header-container .left-section .nav-link a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none; 
+}

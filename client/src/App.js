@@ -11,8 +11,8 @@ import { CommonLayout } from "./layouts/CommonLayout";
 
 //PAGES
 import { Home } from "./pages/home/";
-import { Register } from "./pages/register";
 import { Login } from "./pages/login";
+import { AboutUs } from "./pages/about-us";
 
 const router = createBrowserRouter([
   {
@@ -29,9 +29,10 @@ const router = createBrowserRouter([
             element: <Home />,
           },
           {
-            path: "register",
-            element: <Register />,
+            path: "about-us",
+            element: <AboutUs />,
           },
+
           {
             path: "login",
             element: <Login />,

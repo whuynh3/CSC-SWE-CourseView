@@ -5,6 +5,7 @@ import "./about-us.css";
 export const AboutUs = () => {
   return (
     <>
+    <div className='about-us'>
       {/* Main title */}
       <h1 className="about">About Us</h1>
       {/* Section 1: Introducing ourselves */}
@@ -28,6 +29,7 @@ export const AboutUs = () => {
       <div className="section-4">
         <h2>Section 4: Key Takeaways</h2>
       </div>
+    </div>
     </>
   );
 };

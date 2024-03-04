@@ -1,9 +1,6 @@
 /* Header.css */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
-*{
-    font-family: 'Roboto', sans-serif;
-
-}
+@import url(
+  'https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab:wght@300;400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -35,6 +32,9 @@
   font-size: 40px; /* Increase font size for brand name */
   font-weight: bold;
   color: black; /* Adjust the color as needed */
+  text-shadow: 0px 0px 8px #90CAF9,
+  0px 0px 12px #90CAF9,
+  0px 0px 16px #90CAF9 ;
 }
 
 /* Add spacing between login and register links */

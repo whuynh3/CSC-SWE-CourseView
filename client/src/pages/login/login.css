@@ -124,8 +124,6 @@
   .app button:hover::before {
     transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
   }
-
-
   
  .app .forgot-pass{
     margin-top: 15px;

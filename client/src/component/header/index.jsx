@@ -33,7 +33,7 @@ export function Header() {
       </div>
       <div className="right-section">
         <div className="nav-link">
-          <button onClick={handleLoginButtonClick}><img src="login_icon.png" style={{ width: '50px', height: '50px' }} alt="Login"></img><div className='image-info'>Login</div></button>
+          <button onClick={handleLoginButtonClick}><img src="login_icon.png" style={{ width: '50px', height: '50px' }} alt="Login"></img><div className='image-info'>Account</div></button>
         </div>
       </div>
     </header>

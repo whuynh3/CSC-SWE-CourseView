@@ -6,7 +6,7 @@ export const Home = () => {
 
     return (
         <>
-            <Carousel />
+            {/* <Carousel /> */}
             <div id='main_home_page'>
 
                 {/* CARD TO GO TO COURSE */}

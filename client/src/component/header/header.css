@@ -32,9 +32,7 @@
   font-size: 40px; /* Increase font size for brand name */
   font-weight: bold;
   color: black; /* Adjust the color as needed */
-  text-shadow: 0px 0px 8px #90CAF9,
-  0px 0px 12px #90CAF9,
-  0px 0px 16px #90CAF9 ;
+
 }
 
 /* Add spacing between login and register links */

@@ -118,7 +118,7 @@
 
   .app button:hover {
     cursor: pointer;
-    color: #fff;
+    color: black;
   }
 
   .app button:hover::before {

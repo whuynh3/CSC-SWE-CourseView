@@ -8,7 +8,6 @@ export const Home = () => {
         <>
             {/* <Carousel /> */}
             <div id='main_home_page'>
-
                 {/* CARD TO GO TO COURSE */}
                 <div id="first_card" className="card mx-auto mb-3" style={{ maxWidth: "75%" }}>
                     <div className="row g-0">

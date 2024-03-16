@@ -17,6 +17,10 @@ export function Header() {
     navigate('/about-us');
   };
 
+  const handleCourseButtonClick = () => {
+    navigate('/courses');
+  };
+
 
   return (
     <header className="header-container">
@@ -24,6 +28,11 @@ export function Header() {
         <div className="nav-link">
           <button onClick={handleHomeButtonClick}><img src="home.png" style={{ width: '50px', height: '50px' }} alt="Home"></img><div className='image-info'>Home</div></button>
         </div>
+
+        <div className='nav-link'>
+          <button onClick={handleCourseButtonClick}><img src="search.png" style={{ width: '50px', height: '50px' }} alt="place holder course"></img><div className='image-info'>Courses</div></button>
+        </div>
+        
         <div className="nav-link">
           <button onClick={handleAboutButtonClick}><img src="about.png" style={{ width: '50px', height: '50px' }} alt="About"></img><div className='image-info'>About</div></button>
         </div>

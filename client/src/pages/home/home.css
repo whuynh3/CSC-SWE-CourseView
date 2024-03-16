@@ -6,6 +6,10 @@
     margin: 50px 100px 20px;
     height: 50px;
 }
+.welcome{
+    background-image: url(background.jpg);
+    background-size: 100% 100%;
+    height: 800px;}
 
 #first_card .btn-primary {
     background: linear-gradient(to right, #566cae, #0046c9); /* Gradient background */

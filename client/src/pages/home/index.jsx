@@ -7,8 +7,8 @@ export const Home = () => {
     return (
         <>
             {/* <Carousel /> */}
-            <div id='main_home_page'>
-                {/* CARD TO GO TO COURSE */}
+             <div id='main_home_page'>
+            {/*    CARD TO GO TO COURSE 
                 <div id="first_card" className="card mx-auto mb-3" style={{ maxWidth: "75%" }}>
                     <div className="row g-0">
                         <div className="col-md-4">
@@ -33,6 +33,10 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                {/* ask for the course */}
+                <div className='welcome'>
+                    <p>conga con heo</p>
                 </div>
 
                 {/* THREE IMAGES */}

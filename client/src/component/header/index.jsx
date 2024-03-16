@@ -37,20 +37,17 @@ export function Header() {
     navigate('/about-us');
   };
 
-// <<<<<<< main
-//   const handleCourseButtonClick = () => {
-//     navigate('/courses');
-//   };
+  const handleCourseButtonClick = () => {
+    navigate('/courses');
+  };
 
-// =======
-//   const handleFeedBackButtonClick = () => {
-//     setShowFeedbackForm(true);
-//   };
+  const handleFeedBackButtonClick = () => {
+    setShowFeedbackForm(true);
+  };
 
-//   const handleCloseFeedbackForm = () => {
-//     setShowFeedbackForm(false);
-//   };
-// >>>>>>> main
+  const handleCloseFeedbackForm = () => {
+    setShowFeedbackForm(false);
+  };
 
   return (
     <header className="header-container">

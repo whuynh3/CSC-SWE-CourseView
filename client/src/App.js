@@ -13,6 +13,7 @@ import { CommonLayout } from "./layouts/CommonLayout";
 import { Home } from "./pages/home/";
 import { Login } from "./pages/login";
 import { AboutUs } from "./pages/about-us";
+import { Courses } from "./pages/courses";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
             index: true,
             path: "",
             element: <Home />,
+          },
+          {
+            path: "courses",
+            element: <Courses/>
           },
           {
             path: "about-us",

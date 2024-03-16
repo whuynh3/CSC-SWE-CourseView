@@ -63,14 +63,14 @@ export function Header() {
         </div>
 
         <div className='nav-link'>
-          <button onClick={handleCourseButtonClick}><img src="search.png" style={{ width: '50px', height: '50px' }} alt="place holder course"></img><div className='image-info'>Courses</div></button>
+          {/*<button onClick={handleCourseButtonClick}><img src="search.png" style={{ width: '50px', height: '50px' }} alt="place holder course"></img><div className='image-info'>Courses</div></button>*/}
         </div>
         
         <div className="nav-link">
           <button onClick={handleAboutButtonClick}><img src="about.png" style={{ width: '50px', height: '50px' }} alt="About"></img><div className='image-info'>About</div></button>
         </div>
         <div className="nav-link">
-          <button onClick={handleFeedBackButtonClick}><img src="feedback.png" style={{ width: '50px', height: '50px' }} alt="Feedback"></img><div className='image-info'>FeedBack</div></button>
+          {/*<button onClick={handleFeedBackButtonClick}><img src="feedback.png" style={{ width: '50px', height: '50px' }} alt="Feedback"></img><div className='image-info'>FeedBack</div></button>*/}
         </div>
         <div className="nav-link">
           <button onClick={handleLoginButtonClick}><img src="login_icon.png" style={{ width: '50px', height: '50px' }} alt="Login"></img><div className='image-info'>Account</div></button>
@@ -78,8 +78,8 @@ export function Header() {
       </div>
       {showFeedbackForm && (
         <div className='feedback' ref={feedbackFormRef}>
-          <form id="form">
-            <button className='close_button' onClick={handleCloseFeedbackForm}><img src="close_feedback.png" style={{ width: '30px', height: '30px' }} alt="close"></img></button>
+          <form id="form"> 
+            {/*<button className='close_button' onClick={handleCloseFeedbackForm}><img src="close_feedback.png" style={{ width: '30px', height: '30px' }} alt="close"></img></button> */}
             <h1>CourseView Survey Form</h1>
             {/* Details */}
             <div className="form-control">

@@ -36,7 +36,11 @@ export const Home = () => {
                 </div> */}
                 {/* ask for the course */}
                 <div className='welcome'>
-                    <p>conga con heo</p>
+                    <h1>CourseView</h1>
+                    <button type="button" className="btn btn-primary float-end">
+                        Explore The Course
+                        <img src="forward_icon.png" className="forward-icon" alt="Forward Icon" />
+                    </button>
                 </div>
 
                 {/* THREE IMAGES */}

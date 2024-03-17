@@ -9,6 +9,7 @@ function CourseFeedbackForm({onSubmit}) {
     feedback: '',
     organization: '',
     relevance: '',
+    free_form: '',
   });
 
   const handleChange = (e) => {
@@ -166,7 +167,11 @@ function CourseFeedbackForm({onSubmit}) {
                 <label class="btn btn-outline-primary" for="btnradio35"> Strongly Agree</label>
             </div>
         </div>
+
         
+        <label class="input-group-text" for="textArea">What additional comments or suggestions do you have about this course?</label>
+        <textarea class="form-control" name="free_form" id="textArea" aria-label="With textarea" onChange={handleChange}></textarea>
+    
         <button className="submitFeedbackBtn btn btn-primary" type="submit">Submit</button>
         
     </form>

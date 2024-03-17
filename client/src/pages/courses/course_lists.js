@@ -132,7 +132,7 @@ const CourseList = () => {
                   <div id='filler-intro'>
                     <h1>Courses will appear here</h1>
                     <p>Ready to locate your courses and give valuable feedback? </p>
-                    <p>Start by typing in the search to the right!</p>
+                    <p>Start by typing in the search bar to the right!</p>
                     <p>Enter a Course Name, CRN, Course Number, or Professor</p>
                     
                   </div>

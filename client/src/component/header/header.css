@@ -84,6 +84,9 @@
   padding: 20px;
   z-index: 1000;
 }
+.feedback h1{
+  text-shadow: 3px 3px 0 rgba(144, 202, 249, 0.4);
+}
 
 
 .feedback form {
@@ -94,6 +97,9 @@
   box-shadow: 0 0 30px rgba(144, 202, 249, 1.0); /* Change color to #90CAF9 */
   z-index: 100;
   border-radius: 5px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .feedback .form-control {
@@ -104,7 +110,6 @@
 .feedback .form-control label {
     display: block;
     margin-bottom: 10px;
-    
 }
 
 /* Styling form-control input, 
@@ -151,7 +156,7 @@ button and Checkbox */
 } 
 .feedback .close_button {
   border: none;
-  left: 400px; 
+  left: 200px; 
   padding: 0;
   width: 30px; /* Adjust the initial width of the button */
   height: 30px; /* Adjust the initial height of the button */

@@ -1,43 +1,22 @@
-import React from 'react'
+import React, { useState, useRef, useEffect } from 'react';
 import './home.css';
+import { Link, useNavigate } from 'react-router-dom';
 import { Carousel } from "../../component/carousel/";
 
 export const Home = () => {
-
+    const navigate = useNavigate();
+    
+    const handleCourseButtonClick = () => {
+        navigate('/courses');
+    };
     return (
         <>
             {/* <Carousel /> */}
              <div id='main_home_page'>
-            {/*    CARD TO GO TO COURSE 
-                <div id="first_card" className="card mx-auto mb-3" style={{ maxWidth: "75%" }}>
-                    <div className="row g-0">
-                        <div className="col-md-4">
-                            <img src="logo.png" className="img-fluid rounded-start" alt="..." />
-                        </div>
-                        <div className="col-md-8">
-                            <div className="card-body">
-                                <h5 className="card-title">Card title</h5>
-                                <p className="card-text">
-                                    This is a wider card with supporting text below as a natural lead-in
-                                    to additional content. This content is a little bit longer.
-                                </p>
-                                <p className="card-text">
-                                    <small className="text-muted">Last updated 3 mins ago</small>
-                                </p>
-                            </div>
-                            <div className="card-body">
-                                <button type="button" className="btn btn-primary float-end">
-                                    Explore The Course
-                                    <img src="forward_icon.png" className="forward-icon" alt="Forward Icon" />
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
                 {/* ask for the course */}
                 <div className='welcome'>
-                    <h1>CourseView</h1>
-                    <button type="button" className="btn btn-primary float-end">
+                    <h1 className='brand-name'><strong>CourseView</strong></h1>
+                    <button onClick={handleCourseButtonClick} type="button" className="btn btn-primary float-end" >
                         Explore The Course
                         <img src="forward_icon.png" className="forward-icon" alt="Forward Icon" />
                     </button>
@@ -47,17 +26,17 @@ export const Home = () => {
                 <div className="HomepageCTA__StyledHomepageCTA-sc-1cz1lmf-0 gDekFH">
                     <div className="HomepageCTA__CTAHeader-sc-1cz1lmf-1 dcvmiz">
                         <div className="HomepageCTA__CTAMainHeader-sc-1cz1lmf-2 kvvrYK">
-                            Join the GSU ReviewHub Family
+                            Join the CourseView Family
                         </div>
                         <div className="HomepageCTA__CTASubheader-sc-1cz1lmf-3 flfeFM">
-                            Love GSU ReviewHub? Let's make it official.
+                            Love CourseView? Let's make it official.
                         </div>
                     </div>
                     <div className="CTAImagePrompts__CardContainer-sc-185aslp-0 bpcWaF">
                         <div className="CTACard__StyledCTACard-sc-1l1zcl0-0 huefLS">
                             <img
                                 alt="Lady with a pencil"
-                                src="home_1.png"
+                                src="home_1.jpg"
                                 className="CTACard__CardImage-sc-1l1zcl0-1 ThHmd"
                             />
                             <div className="CTACard__CardText-sc-1l1zcl0-2 eWKaAo">
@@ -67,7 +46,7 @@ export const Home = () => {
                         <div className="CTACard__StyledCTACard-sc-1l1zcl0-0 huefLS">
                             <img
                                 alt="Person making an anonymous entry"
-                                src="home_2.png"
+                                src="home_2.jpg"
                                 className="CTACard__CardImage-sc-1l1zcl0-1 bRvErW"
                             />
                             <div className="CTACard__CardText-sc-1l1zcl0-2 eWKaAo">

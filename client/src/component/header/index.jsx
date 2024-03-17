@@ -81,7 +81,7 @@ export function Header() {
             {/* Details */}
             <div className="form-control">
               <label className="name" id="label-name">
-                Name
+                <strong>Name</strong>
               </label>
               <div>
               {/* Input Type Text */}
@@ -91,7 +91,7 @@ export function Header() {
             </div>
             <div className="form-control">
               <label className="email" id="label-email">
-                Email
+                <strong>Email</strong>
               </label>
               {/* Input Type Email*/}
               <div>
@@ -101,7 +101,7 @@ export function Header() {
             </div>
             <div className="form-control">
               <label className="role" id="label-role">
-                Which option best describes you?
+                <strong>Which option best describes you?</strong>
               </label>
               {/* Dropdown options */}
               <select name="role" id="role">
@@ -111,7 +111,7 @@ export function Header() {
               </select>
             </div>
             <div id='radio-button-form' className="form-control">
-              <label>Would you recommend CourseView to a friend?</label>
+              <label><strong>Would you recommend CourseView to a friend?</strong></label>
               {/* Input Type Radio Button */}
               <label className="recommed-1">
                 <input type="radio" id="recommed-1" name="recommed" />
@@ -127,7 +127,7 @@ export function Header() {
               </label>
             </div>
             <div className="form-control">
-              <label className="comment">Any comments or suggestions</label>
+              <label className="comment"><strong>Any comments or suggestions</strong></label>
               {/* multi-line text input control */}
               <textarea
                 name="comment"
@@ -137,7 +137,7 @@ export function Header() {
             </div>
               {/* Multi-line Text Input Control */}
             <button type="submit" value="submit">
-              Submit
+              <strong>Submit</strong>
             </button>
           </form>
         </div>

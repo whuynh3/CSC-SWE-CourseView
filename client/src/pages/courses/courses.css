@@ -58,7 +58,9 @@
     margin-bottom: 10px;
     background-color: #fff;
     transition: transform 0.5s ease;
-    width:30%
+    width:30%;
+
+    position: relative;
 }
 
 .course-item:hover{
@@ -74,4 +76,44 @@
   
 .course-item p {
     margin: 0;
+}
+
+.viewFeedBackBtn{
+    position: absolute;
+    bottom:10px;  
+}
+
+.feedback-container{
+    background-color: white;
+    display:flex
+}
+
+.feedback-comment{
+    margin-bottom:15px;
+}
+.feedback-comment p{
+    margin-bottom:auto;
+}
+
+.course-info strong{
+    color:#0b56c3;
+    border: 2px solid #6ab8f8;
+    background-color: #b2e8fb;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: px;
+}
+
+.submitFeedbackBtn{
+    margin:10px;
+    background-color: green;
+}
+
+.feedback-toolbar h5{
+    margin:10px;
+    margin-bottom: 10px;
+}
+
+.feedback-questions{
+    margin:10px;
 }

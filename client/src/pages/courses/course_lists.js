@@ -94,7 +94,7 @@ const CourseList = () => {
       // Handle submission logic here, such as sending the data to a server
       console.log('Received ratings:', ratings);
     };
-
+    
     return (
         <div className="container">
           <div className="row">
@@ -255,6 +255,7 @@ const CourseList = () => {
           </div>
         </div>
 
+        
 
 
         </div>

@@ -28,6 +28,7 @@
     filter: blur(5px); /* Adjust the blur radius as needed */
     z-index: -1; /* Ensure the pseudo-element is behind other content */
 }
+
 .welcome .brand-name{
     color: white;
     font-size: 100px;
@@ -130,8 +131,6 @@ button.ModalButtonLink__StyledButton-sc-1soj3zs-0 {
     height: 200px;
     background: #90CAF9;
     transition: 0.5s;
-    color:black;
-
 }
 
 .HomepageCTA__StyledHomepageCTA-sc-1cz1lmf-0 button>div::after,

@@ -20,8 +20,7 @@ export const Home = () => {
                 <div className='welcome'>
                     <h1 className='brand-name'><strong>CourseView</strong></h1>
                     <button onClick={handleCourseButtonClick} type="button" className="btn btn-primary float-end" >
-                        Explore The Course
-                        <img src="forward_icon.png" className="forward-icon" alt="Forward Icon" />
+                        Click here to explore The Course
                     </button>
                 </div>
 

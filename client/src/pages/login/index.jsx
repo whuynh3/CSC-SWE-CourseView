@@ -25,9 +25,9 @@ export const Login = () => {
         return alert("Please enter your information!")
       }
       await ClientAPI.post("register", user);
-      alert("Register success. Redirect to login page...")      
+      alert("Register success. Redirect to login...")      
       const timeout = setTimeout(() => {
-        navigate("/login");
+        setIsSignUp(false);
         clearTimeout(timeout);
       }, 500);
     } catch (error) {
@@ -148,12 +148,7 @@ export const Login = () => {
                   value={user.password}
                   onChange={(e) => handleInputChange(e, "password")}
                   id="customer_password"
-                  placeholder="Password"
                   type="password" required/>
-              </label>
-              <label>
-                <span>Confirm Password</span>
-                <input type="password" />
               </label>
               <button type="submit" className="submit">Sign Up Now</button>
             </form>

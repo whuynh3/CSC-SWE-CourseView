@@ -9,6 +9,9 @@ export const Home = () => {
     const handleCourseButtonClick = () => {
         navigate('/courses');
     };
+    const handleLoginButtonClick = () => {
+        navigate('/login');
+      };
     return (
         <>
             {/* <Carousel /> */}
@@ -65,6 +68,7 @@ export const Home = () => {
                         </div>
                     </div>
                     <button
+                        onClick={handleLoginButtonClick}
                         role="button"
                         data-testid="modal-button-link"
                         className="ModalButtonLink__StyledButton-sc-1soj3zs-0 khahiz"

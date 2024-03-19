@@ -104,7 +104,9 @@ export function Header() {
           ):(
           <div className="image-info account-link">
             <div className='link'>
-              <a href="#">Profile</a><br/>
+              <a href="#">
+              <img src="login_icon.png" style={{ width: '20px', height: '20px' }} alt="Profile"></img>
+              &#160;&#160;Profile&#160;&#160;&#160;</a>
               <div className='line'></div>
               <a href="#">
                 <img src="setting.png" style={{ width: '20px', height: '20px' }} alt="Setting"></img>

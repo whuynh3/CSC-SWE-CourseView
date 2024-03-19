@@ -268,3 +268,12 @@ button and Checkbox */
   width: 120px;
   
 }
+.header-container .account-link .link a,
+.header-container .account-link .link .line {
+  align-self: flex-start;
+}
+.header-container .account-link .link a img {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 5px; 
+}

@@ -22,4 +22,4 @@ CREATE TABLE `userToken`
 
 INSERT INTO `user` (`userID`, `fullName`, `email`, `password`, `isAdmin`) VALUES ('1', '0', '0', '0', '1');
 
-INSERT INTO `user` (`fullName`, `email`, `password`, `isAdmin`) VALUES ('admin', 'admin@gmail.com', 'admin', '1');
+INSERT INTO `user` (`fullName`, `email`, `password`, `isAdmin`) VALUES ('admin', 'admin@gmail.com', '$2a$10$7lE8gY1uytxXtbUXFkX30unjimP7JCBIKPBdRushWEzyF4Qb6bZbq', '1');

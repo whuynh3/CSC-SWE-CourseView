@@ -250,14 +250,8 @@ button and Checkbox */
   transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
 }
 /* link to profile and setting */
-.header-container a{
-  color: black;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-.header-container a:hover {
-  color: #0015ff; 
-}
+
+
 .header-container .line{
   background-color: black;
   width: 100%px;
@@ -284,4 +278,7 @@ button and Checkbox */
   width: 20px; /* Adjust the width as needed */
   height: 20px; /* Adjust the height as needed */
   margin-right: 10px; /* Add space between image and text */
+}
+.header-container .account-link .link a:hover {
+  color: #0015ff; /* Change color on hover */
 }

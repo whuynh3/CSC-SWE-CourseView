@@ -104,9 +104,14 @@ export function Header() {
           ):(
           <div className="image-info account-link">
             <div className='link'>
-              <a href="/profile">
-              <img src="login_icon.png" style={{ width: '20px', height: '20px' }} alt="Profile"></img>
-              Profile</a>
+              {(Cookies.get("isAdmin") !== undefined && Cookies.get("isAdmin") === '1')? (
+                  <a href="/adminDashboard">
+                    {/* <img src="dashboard.png" style={{ width: '20px', height: '20px' }} alt="Dashboard"></img> */}
+                    &#160;Dashboard
+                  </a>
+                ):(<a href="/profile">
+                <img src="login_icon.png" style={{ width: '20px', height: '20px' }} alt="Profile"></img>
+                Profile</a>)}
               <div className='line'></div>
               <a href="#">
                 <img src="setting.png" style={{ width: '20px', height: '20px' }} alt="Setting"></img>

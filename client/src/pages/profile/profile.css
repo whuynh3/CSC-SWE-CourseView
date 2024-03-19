@@ -1,5 +1,6 @@
 .container body {
-    background: rgb(99, 39, 120)
+    background: rgb(99, 39, 120);
+    padding: 10px 20px;
 }
 
 .form-control:focus {
@@ -10,7 +11,8 @@
 .profile-button {
     background: rgb(99, 39, 120);
     box-shadow: none;
-    border: none
+    border: none;
+    padding: 10px 20px;
 }
 
 .profile-button:hover {

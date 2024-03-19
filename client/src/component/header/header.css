@@ -272,8 +272,16 @@ button and Checkbox */
 .header-container .account-link .link .line {
   align-self: flex-start;
 }
+.header-container .account-link .link a {
+  display: flex;
+  align-items: center;
+  color: black; /* Adjust the color as needed */
+  text-decoration: none; /* Remove underline */
+  margin-bottom: 5px; /* Add margin between links */
+  margin-left: 6px;
+}
 .header-container .account-link .link a img {
-  width: 20px; 
-  height: 20px; 
-  margin-right: 5px; 
+  width: 20px; /* Adjust the width as needed */
+  height: 20px; /* Adjust the height as needed */
+  margin-right: 10px; /* Add space between image and text */
 }

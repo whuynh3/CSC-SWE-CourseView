@@ -14,6 +14,7 @@ import { Home } from "./pages/home/";
 import { Login } from "./pages/login";
 import { AboutUs } from "./pages/about-us";
 import { Courses } from "./pages/courses";
+import { Profile } from "./pages/profile";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
           {
             path: "login",
             element: <Login />,
+          },
+          {
+            path: "profile",
+            element: <Profile />,
           },
           
 

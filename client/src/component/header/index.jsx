@@ -104,17 +104,17 @@ export function Header() {
           ):(
           <div className="image-info account-link">
             <div className='link'>
-              <a href="#">
+              <a href="/profile">
               <img src="login_icon.png" style={{ width: '20px', height: '20px' }} alt="Profile"></img>
-              &#160;&#160;Profile&#160;&#160;&#160;</a>
+              Profile</a>
               <div className='line'></div>
               <a href="#">
                 <img src="setting.png" style={{ width: '20px', height: '20px' }} alt="Setting"></img>
-                &#160; Setting&#160;&#160;</a>
+                Setting</a>
               <div className='line'></div>
               <a onClick={handleLogOut} href="#">
                 <img src="logout.png" style={{ width: '20px', height: '20px' }} alt="Logout"></img>
-                &#160; Log Out </a>
+                Log Out </a>
             </div>
           </div>
           )}
